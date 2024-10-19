@@ -19,9 +19,14 @@ Maven
 
 3.Testing the APIs with Postman
 Import Postman Collection: Use the provided Postman collection to test the APIs. Import the collection into Postman.
+
 Register and Login: First, register a new user using the /register endpoint, then use the /login endpoint to obtain a JWT token.
+
 JWT Token: Use the JWT token in the Authorization header as Bearer <JWT Token> for secured endpoints.
+
 Access the API: Test other API endpoints like /users and /users/{id} using the token.
+
+
 Postman JWT Setup
 After logging in, copy the JWT token from the response.
 In Postman, go to the Authorization tab, select Bearer Token, and paste the token.
